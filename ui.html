@@ -1,0 +1,196 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+
+    <title>UI</title>
+    <link rel="stylesheet" type="text/css" href="normalize.css">
+    <link href="favicon_rong.ico" rel="icon" type="image/x-icon" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <style>
+        .backbtn{
+         position: fixed;
+         right: 20px;
+         top: 20px;
+            }
+        body{
+            font: 10pt Helvetica, "華康圓體 Std", Sans-Seri;
+            letter-spacing: 1px;
+            line-height: 12px;
+            margin: auto;
+        }
+        .header{
+            background-color: #DDDDDD;
+            margin: 0 auto;
+        }
+        .outer{
+            background-color: #DDDDDD;
+            margin: 0 auto;
+            padding-top: 20px;
+        }
+        .inner{
+            margin:auto;
+            background-color: #DDDDDD;
+            width:80vw;   
+        }
+        .outer1{
+            background-color: white;
+            margin: 0 auto;
+        }
+        .inner1{
+            background-color: white;
+            width:80vw;
+            height:80vh;
+            margin: 0 auto;
+        }
+        .row1{
+         max-width: 1080px;
+         margin: 0 auto;
+        } 
+        .hqshop_L{
+            margin: 0 auto;
+            width:80vw;   
+        }
+        
+        .content* {
+        box-sizing: border-box;
+        overflow: auto;
+        
+        }
+      
+        [class*="col-"]{
+            width: 100%;
+            float: left; 
+        }
+        /* 桌上型電腦螢幕 螢幕限制 大於等於 992px */
+        @media screen and (min-width:992px){
+            .col-md-1 {width: calc(100%*1/12);}
+            .col-md-2 {width: calc(100%*2/12);}
+            .col-md-3 {width: calc(100%*3/12);}
+            .col-md-4 {width: calc(100%*4/12);}
+            .col-md-5 {width: calc(100%*5/12);}
+            .col-md-6 {width: calc(100%*6/12);}
+            .col-md-7 {width: calc(100%*7/12);}
+            .col-md-8 {width: calc(100%*8/12);}
+            .col-md-9 {width: calc(100%*9/12);}
+            .col-md-10 {width: calc(100%*10/12);}
+            .col-md-11 {width: calc(100%*11/12);}
+            .col-md-12 {width: calc(100%*12/12);}
+        .title{
+        float: left;
+        color: black;
+        font: 16pt Helvetica, "華康圓體 Std", Sans-Seri;
+        text-align: center;
+        line-height: 10px;
+        margin: 0px;
+        padding-top: 10px;
+        }       
+        .text{
+        float: left;
+        color: dimgrey;
+        font: 13pt Helvetica, "華康圓體 Std", Sans-Seri;
+        line-height: 28px;
+        padding-top: 30px;
+        }
+        .row1:after {
+        content: "";
+        clear: both;
+        display: block;  
+        }
+        }
+/* 桌上型平板與小螢幕 螢幕限制 大於等於 768px 小於等於 991px*/
+        @media screen and (min-width:768px) and (max-width:991px){
+            .col-sm-1 {width: calc(100%*1/12);}
+            .col-sm-2 {width: calc(100%*2/12);}
+            .col-sm-3 {width: calc(100%*3/12);}
+            .col-sm-4 {width: calc(100%*4/12);}
+            .col-sm-5 {width: calc(100%*5/12);}
+            .col-sm-6 {width: calc(100%*6/12);}
+            .col-sm-7 {width: calc(100%*7/12);}
+            .col-sm-8 {width: calc(100%*8/12);}
+            .col-sm-9 {width: calc(100%*9/12);}
+            .col-sm-10 {width: calc(100%*10/12);}
+            .col-sm-11 {width: calc(100%*11/12);}
+            .col-sm-12 {width: calc(100%*12/12);}    
+        .title{
+        float: left;
+        color: black;
+        font: 16pt Helvetica, "華康圓體 Std", Sans-Seri;
+        text-align: center;
+        line-height: 10px;
+        margin: 0px;
+        padding-top: 10px;
+        }       
+        .text{
+        float: left;
+        color: dimgrey;
+        font: 13pt Helvetica, "華康圓體 Std", Sans-Seri;
+        line-height: 28px;
+        padding-top: 30px;
+        }
+        .row1:after {
+        content: "";
+        clear: both;
+        display: block;  
+        }
+        }
+ /* 超小螢幕 螢幕限制 小於等於 767px */
+            @media screen and (max-width:767px){
+        .title{
+        float: left;
+        color: black;
+        font: 16pt Helvetica, "華康圓體 Std", Sans-Seri;
+        text-align: center;
+        line-height: 10px;
+        margin: 0px;
+        padding-top: 10px;
+        }       
+        .text{
+        float: left;
+        color: dimgrey;
+        font: 13pt Helvetica, "華康圓體 Std", Sans-Seri;
+        line-height: 28px;
+        padding-top: 30px;
+        }
+        .row1:after {
+        content: "";
+        clear: both;
+        display: block;  
+        }       
+            }
+    </style>
+</head>
+<body>
+<div class="header">
+    <div class="outer">
+        <div class="inner"><img src="HOTAI_UI.png" alt="" class="headerimg"></div>
+    </div>
+</div>
+<div class="content">
+    <div class="outer1">
+        <div class="inner1">
+        <div class="row1">
+         <div class="col-sm-12 col-md-1"></div>
+         <div class="title col-sm-12 col-md-4">
+         <h2>和泰汽車-課程UI</h2>
+         <h4>2011-2013專案課程UI</h4>
+     </div>
+     
+         <div class="text col-sm-12 col-md-6">
+         <span> 研究和泰汽車的產業特性，將汽車相關零件或儀錶板等元素，設計成線上學習課程的使用介面，引導學員與課程產生互動，讓閱讀課程順利進行，或加入有趣的動態設計提高學習意願。</span><br><br>
+         <a href="http://hqshop.velocite-bikes.com"><span>hqshop.velocite-bikes.com</span></a>
+         </div>
+         <div class="col-sm-12 col-md-1"></div>
+         </div>
+        </div>
+    </div>
+</div>
+<div class="footer"></div>
+
+<div class="backbtn"><a href="portofolio.html"><img src="logo_back.png" target="_self"></a></div>
+
+</body>
+</html>

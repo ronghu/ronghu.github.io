@@ -1,0 +1,211 @@
+.header{
+        margin: 0 auto;
+        background: -webkit-radial-gradient(circle,white,#DDDDDD);
+}
+.outer{
+         
+        margin: 0 auto;
+        }
+.inner{
+        width:80vw;  
+        margin: 0 auto;
+        }
+.breadcrumb{
+        margin: 0 auto;
+        background-color: white;
+}  
+.topbtn{
+        position: fixed;
+        right: 20px;
+        bottom: 20px;
+        }
+
+body{   
+        font: 10pt Helvetica, "華康圓體 Std", Sans-Seri;
+        background-color: white;
+        max-width: 100vw;
+        overflow: auto;
+	    margin:  auto;    
+      }
+.Mt{
+          width: 100rw;
+          height: 300px;
+          border: 5px solid red;
+          background-color: white;
+          font-family: Century Gothic;
+          color: red;
+          font-size: 30px;
+          padding-top:100px;
+          text-align: center;
+          margin: 5px;   
+      }
+      .M1{
+          
+          height: 300px;
+          background-image:url("m01/cube_m01.png");
+          background-position: center;
+          background-repeat: no-repeat;
+          margin: 5px;
+      }
+      .M2{
+          height: 300px;
+          background-image:url("m02/cube_m02.png");
+          background-position: center;
+          background-repeat: no-repeat;
+          margin: 5px;
+      }
+      .M3{
+          height: 300px;
+          background-image:url("m03/cube_m03.png");
+          background-position: center;
+          background-repeat: no-repeat;
+          margin: 5px;
+      }
+      .M1:hover{
+          height: 300px;
+          background-image:url("m01/cube_m01_h.png");
+          background-position: center;
+          background-repeat: no-repeat;
+          margin: 5px;
+      }
+      .M2:hover{
+          height: 300px;
+          background-image:url("m02/cube_m02_h.png");
+          background-position: center;
+          background-repeat: no-repeat;
+          margin: 5px;
+      }
+      .M3:hover{
+          height: 300px;
+          background-image:url("m03/cube_m03_h.png");
+          background-position: center;
+          background-repeat: no-repeat;
+          margin: 5px;
+      }
+      .Gt{
+          width: 100rw;
+          height: 300px;
+          border: 5px solid red;
+          background-color: white;
+          font-family: Century Gothic;
+          color: red;
+          font-size: 30px;
+          padding-top:120px;
+          text-align: center;
+          margin: 5px;   
+      }
+      .G1{
+          
+          height: 300px;
+          background-image:url("g01/cube_g01.png");
+          background-position: center;
+          background-repeat: no-repeat;
+          margin: 5px;
+      }
+      .G2{
+          height: 300px;
+          background-image:url("g02/cube_g02.png");
+          background-position: center;
+          background-repeat: no-repeat;
+          margin: 5px;
+      }
+      .G3{
+          height: 300px;
+          background-image:url("g03/cube_g03.png");
+          background-position: center;
+          background-repeat: no-repeat;
+          margin: 5px;
+      }
+      .G1:hover{
+          height: 300px;
+          background-image:url("g01/cube_g01_h.png");
+          background-position: center;
+          background-repeat: no-repeat;
+          margin: 5px;
+      }
+      .G2:hover{
+          height: 300px;
+          background-image:url("g02/cube_g02_h.png");
+          background-position: center;
+          background-repeat: no-repeat;
+          margin: 5px;
+      }
+      .G3:hover{
+          height: 300px;
+          background-image:url("g03/cube_g03_h.png");
+          background-position: center;
+          background-repeat: no-repeat;
+          margin: 5px;
+      }
+      .Pt{
+          width: 100rw;
+          height: 300px;
+          border: 5px solid #05A2B1;
+          background-color: white;
+          font-family: Century Gothic;
+          color: #05A2B1;
+          font-size: 30px;
+          padding-top:120px;
+          text-align: center;
+          margin: 5px;   
+      }
+      .P1{
+          
+          height: 300px;
+          background-image:url("p01/cube_p01.png");
+          background-position: center;
+          background-repeat: no-repeat;
+          margin: 5px;
+      }
+      .P2{
+          height: 300px;
+          background-image:url("p02/cube_p02.png");
+          background-position: center;
+          background-repeat: no-repeat;
+          margin: 5px;
+      }
+      .P3{
+          height: 300px;
+          background-image:url("p03/cube_p03.png");
+          background-position: center;
+          background-repeat: no-repeat;
+          margin: 5px;
+      }
+      .P1:hover{
+          height: 300px;
+          background-image:url("p01/cube_p01_h.png");
+          background-position: center;
+          background-repeat: no-repeat;
+          margin: 5px;
+      }
+      .P2:hover{
+          height: 300px;
+          background-image:url("p02/cube_p02_h.png");
+          background-position: center;
+          background-repeat: no-repeat;
+          margin: 5px;
+      }
+      .P3:hover{
+          height: 300px;
+          background-image:url("p03/cube_p03_h.png");
+          background-position: center;
+          background-repeat: no-repeat;
+          margin: 5px;
+      }
+      .text{
+        float: left;
+        color: dimgrey;
+        font: 13pt Helvetica, "華康圓體 Std", Sans-Seri;
+        letter-spacing: 1px;
+        line-height: 26px;
+        padding: 20px;
+        }
+       .text_red{
+        float: left;
+        color: crimson;
+        font: 12pt Helvetica, "華康圓體 Std", Sans-Seri;
+        letter-spacing: 1px;
+        line-height: 22px;
+        padding: 10px;
+        }
+    

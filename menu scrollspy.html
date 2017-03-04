@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>menu scrollspy</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+    body{
+        margin: auto;
+    }
+   .a {
+        height: 100rh;
+        width: 100rw;
+        background-color: aquamarine;
+        padding: 10px;
+    }
+    
+    .b {
+        height: 100rh;
+        width: 100rw;
+        background-color: antiquewhite;
+       
+    }
+    
+    .c {
+        height: 100rh;
+        width: 100rw;
+        background-color: sandybrown;
+        padding: 10px;
+    }
+    .section2.{
+        
+    }
+</style>
+</head>
+
+
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+    <nav class="navbar navbar-inverse navbar-fixed-top">     
+        <ul class="nav navbar-nav" data-spy="affix" data-offset-top="197">
+            <li><a class="navbar-brand" href="#"><img alt="Brand" src="logo_rong.png"></a></li>
+            <li><a href="#section1">Section 1</a></li>
+            <li><a href="#section2">Section 2</a></li>
+            <li><a href="#section3">Section 3</a></li>
+        </ul>
+    </nav>
+    <div id="section1" class="a">
+       <br><br>
+       <h1>Section 1</h1>
+       <p>Try to scroll this page while scrolling!</p>
+    </div>
+    <div id="section2" class="b">
+      <div class="jumbortron">
+      <div class="container-fluid">
+       <img src="sky.png" alt="" class="s2_img">
+      </div>
+      </div>
+    </div>
+    <div id="section3" class="c">
+       <br><br>
+       <h1>Section 3</h1>
+       <p>Try to scroll this page while scrolling!</p>
+    </div>
+</body>
+</html>

@@ -27,6 +27,7 @@ body{
         overflow: auto;
 	    margin:  auto;    
       }
+
 .Mt{
           width: 100rw;
           height: 300px;
@@ -193,7 +194,7 @@ body{
           margin: 5px;
       }
       .text{
-        float: left;
+       
         color: dimgrey;
         font: 13pt Helvetica, "華康圓體 Std", Sans-Seri;
         letter-spacing: 1px;
@@ -206,6 +207,6 @@ body{
         font: 12pt Helvetica, "華康圓體 Std", Sans-Seri;
         letter-spacing: 1px;
         line-height: 22px;
-        padding: 10px;
+        
         }
     

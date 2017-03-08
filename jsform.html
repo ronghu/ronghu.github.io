@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+<script type="text/javascript" src="form.js">
+</script>
+   
+    <meta charset="UTF-8">
+    <title>jsform</title>
+    <style>
+     .tt{
+         text-align:center;
+        }
+    </style>
+</head>
+<body>
+    <div class="tt">
+       <h1>表單製作</h1>
+    </div>
+    <div>
+        <form name="reg" method="post" action="form.aspx">
+            <fieldset>
+                <legend>基本資料</legend>
+                姓名：<input type="text" name="myname" placeholder="最大長度10字" value="">
+               
+                &nbsp; &nbsp; &nbsp;
+                生日：西元<input type="text" id="Year">年
+                <select name="month">
+                    <option value="0" selected="selected">&lt;請選取&gt;</option>
+                    <option value="1" >01</option>
+                    <option value="2" >02</option>
+                    <option value="3">03</option>
+                    <option value="4">04</option>
+                    <option value="5" >05</option>
+                    <option value="6" >06</option>
+                    <option value="7" >07</option>
+                    <option value="8" >08</option>
+                    <option value="9" >09</option>
+                    <option value="10" >10</option>
+                    <option value="11" >11</option>
+                    <option value="12" >12</option>
+                    
+                </select>月
+                <select name="day">
+                    <option value="0" selected="selected">&lt;請選取&gt;</option>
+                    <option value="1">01</option>
+                    <option value="2" >02</option>
+                    <option value="3" >03</option>
+                    <option value="4" >04</option>
+                    <option value="5" >05</option>
+                    <option value="6" >06</option>
+                    <option value="7" >07</option>
+                    <option value="8" >08</option>
+                    <option value="9" >09</option>
+                    <option value="10" >10</option>
+                    <option value="11" >11</option>
+                    <option value="12" >12</option>
+                    <option value="13">13</option>
+                    <option value="14" >14</option>
+                    <option value="15" >15</option>
+                    <option value="16" >16</option>
+                    <option value="17" >17</option>
+                    <option value="18" >18</option>
+                    <option value="19">19</option>
+                    <option value="20" >20</option>
+                    <option value="21" >21</option>
+                    <option value="22" >22</option>
+                    <option value="23" >23</option>
+                    <option value="24" >24</option>
+                    <option value="25" >25</option>
+                    <option value="26" >26</option>
+                    <option value="27" >27</option>
+                    <option value="28" >28</option>
+                    <option value="29" >29</option>
+                    <option value="30" >30</option>
+                    <option value="31" >31</option>
+                    
+                </select>日<p>
+                電話：<input type="text" id="Tel" placeholder="低於10位數字" ><p>
+                性別(單選)：<input type="radio" name="s">男<input type="radio" name="s">女
+            </fieldset>
+             <fieldset>
+                <legend>其它項目</legend>
+                啫好(複選)：<input type="checkbox" id="reading">閱讀<input type="checkbox" id="exercise">運動<input type="checkbox" id="music">音樂<input type="checkbox" id="sleep">睡覺<input type="checkbox" id="chat">聊天<p>
+                請選擇你最喜歡的幾門課(複選)：<select name="products" multiple="multiple">
+                    <option value="Value 1" selected="selected">1.Linear Algebra</option>
+                    <option value="Value 2" selected="selected">2.C Programming Language</option>
+                    <option value="Value 3" selected="selected">3.Engineering Mathematics</option>
+                    <option value="Value 4" selected="selected">4.Numerical Methods</option>
+                    <option value="Value 5" selected="selected">5.Introduction to Artificial Intelligene</option>
+                    <option value="Value 6" selected="selected">6.Web Programming</option>
+                </select><p>
+                
+                意見回饋<br>
+                <textarea cols="100" rows="12" id="opinion" placeholder="請書寫於此處"></textarea>
+            </fieldset>
+             <p>
+        
+                  <input type="submit" onClick="check()"> <input type="reset">
+        </form>
+       
+    </div>
+</body>
+</html>

@@ -7,7 +7,7 @@
         }
 .header{
         margin: 0 auto;
-        background: -webkit-radial-gradient(circle,white,#DDDDDD);
+        background: #F2F2F2;
 }
 .header_m01{
         margin: 0 auto;
@@ -39,10 +39,7 @@ body{
      max-width: 1080px;
      margin: 0 auto;
     }    
-.header{
-       
-        background: -webkit-radial-gradient(circle,white,#DDDDDD);
-        }
+
 .section1{
     background-color: white;
 }

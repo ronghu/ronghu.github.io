@@ -1,6 +1,6 @@
 .header{
         margin: 0 auto;
-        background: -webkit-radial-gradient(circle,white,#DDDDDD);
+        background: #F2F2F2;
 }
 .outer{
          
@@ -194,7 +194,6 @@ body{
           margin: 5px;
       }
       .text{
-       
         color: dimgrey;
         font: 13pt Helvetica, "華康圓體 Std", Sans-Seri;
         letter-spacing: 1px;
@@ -202,9 +201,11 @@ body{
         padding: 20px;
         }
        .text_red{
-        float: left;
         color: crimson;
         font: 12pt Helvetica, "華康圓體 Std", Sans-Seri;
         letter-spacing: 1px;
         line-height: 22px;
+        }
+     li{
+        list-style:disc;
         }

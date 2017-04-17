@@ -35,6 +35,18 @@ $(document).ready(function(){
         $(this).css('transition','1s');     
     });
     
+    $('.M6').hover(function(){
+        $(this).css('transition','1s');
+        }, function(){
+        $(this).css('transition','1s');     
+    });
+    
+    $('.M7').hover(function(){
+        $(this).css('transition','1s');
+        }, function(){
+        $(this).css('transition','1s');     
+    });
+    
     $('.G1').hover(function(){
         $(this).css('transition','1s');
         }, function(){
@@ -66,6 +78,24 @@ $(document).ready(function(){
     });
     
     $('.P3').hover(function(){
+        $(this).css('transition','1s');
+        }, function(){
+        $(this).css('transition','1s');     
+    });
+    
+     $('.V1').hover(function(){
+        $(this).css('transition','1s');
+        }, function(){
+        $(this).css('transition','1s');     
+    });
+    
+    $('.V2').hover(function(){
+        $(this).css('transition','1s');
+        }, function(){
+        $(this).css('transition','1s');     
+    });
+    
+    $('.V3').hover(function(){
         $(this).css('transition','1s');
         }, function(){
         $(this).css('transition','1s');     

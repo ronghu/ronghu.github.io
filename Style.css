@@ -78,37 +78,65 @@ body{
           background-repeat: no-repeat;
           margin: 5px;
       }
+     .M6{
+          height: 300px;
+          background-image:url("m06/cube_m06.png");
+          background-position: center;
+          background-repeat: no-repeat;
+          margin: 5px;
+      }
+     .M7{
+          height: 300px;
+          background-image:url("m07/cube_m07.png");
+          background-position: center;
+          background-repeat: no-repeat;
+          margin: 5px;
+      }
       .M1:hover{
           height: 300px;
           background-image:url("m01/cube_m01_h.png");
           background-position: center;
           background-repeat: no-repeat;
           margin: 5px;
-      }
+          }
       .M2:hover{
           height: 300px;
           background-image:url("m02/cube_m02_h.png");
           background-position: center;
           background-repeat: no-repeat;
           margin: 5px;
-      }
+          }
       .M3:hover{
           height: 300px;
           background-image:url("m03/cube_m03_h.png");
           background-position: center;
           background-repeat: no-repeat;
           margin: 5px;
-      }
+          }
       .M4:hover{
           height: 300px;
           background-image:url("m04/cube_m04_h.png");
           background-position: center;
           background-repeat: no-repeat;
           margin: 5px;
-      }
+          }
      .M5:hover{
           height: 300px;
           background-image:url("m05/cube_m05_h.png");
+          background-position: center;
+          background-repeat: no-repeat;
+          margin: 5px;
+          }
+     .M6:hover{
+          height: 300px;
+          background-image:url("m06/cube_m06_h.png");
+          background-position: center;
+          background-repeat: no-repeat;
+          margin: 5px;
+      }
+      .M7:hover{
+          height: 300px;
+          background-image:url("m07/cube_m07_h.png");
           background-position: center;
           background-repeat: no-repeat;
           margin: 5px;
@@ -219,14 +247,70 @@ body{
           background-position: center;
           background-repeat: no-repeat;
           margin: 5px;
-      }
+         }
       .P3:hover{
           height: 300px;
           background-image:url("p03/cube_p03_h.png");
           background-position: center;
           background-repeat: no-repeat;
           margin: 5px;
-      }
+         }
+      .Vt{
+          display:flex;
+          align-items:center;
+          justify-content:center;
+          width: 100rw;
+          height: 300px;
+          border: 5px solid #05A2B1;
+          background-color: white;
+          font-family: Century Gothic;
+          color: #05A2B1;
+          font-size: 30px;
+          text-align: center;
+          margin: 5px;   
+          }
+      .V1{ 
+          height: 300px;
+          background-image:url("v01/cube_v01.png");
+          background-position: center;
+          background-repeat: no-repeat;
+          margin: 5px;
+          }
+      .V2{
+          height: 300px;
+          background-image:url("v02/cube_v02.png");
+          background-position: center;
+          background-repeat: no-repeat;
+          margin: 5px;
+          }
+      .V3{
+          height: 300px;
+          background-image:url("v03/cube_v03.png");
+          background-position: center;
+          background-repeat: no-repeat;
+          margin: 5px;
+          }
+      .V1:hover{
+          height: 300px;
+          background-image:url("v01/cube_v01_h.png");
+          background-position: center;
+          background-repeat: no-repeat;
+          margin: 5px;
+          }
+      .V2:hover{
+          height: 300px;
+          background-image:url("v02/cube_v02_h.png");
+          background-position: center;
+          background-repeat: no-repeat;
+          margin: 5px;
+          }
+      .V3:hover{
+          height: 300px;
+          background-image:url("v03/cube_v03_h.png");
+          background-position: center;
+          background-repeat: no-repeat;
+          margin: 5px;
+          }
       .text{
         color: dimgrey;
         font: 13pt Helvetica, "華康圓體 Std", Sans-Seri;

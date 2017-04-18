@@ -29,22 +29,31 @@
         margin:5px;
         max-width:80vw;
         padding: 5px; 
-      }
-      .s3{
-        max-width:100vw;
-        background-color: #F2F2F2; 
-        padding-top: 20px;
-      }
-      .s2{
-        margin: 0 auto;
-        background: #e9ebee;
-        }
+       }
       .row:after {
         content: "";
         clear: both;
         display: block;
         }
-      
+      .s2{
+        margin: 0 auto;
+        padding: 50px;
+        background-color: #e9ebee;
+        }
+     .A{
+        float:left;
+        max-width: 400px;
+        }
+     .B{
+        float:left;
+        max-width: 400px; 
+        margin-left: 5px;
+        margin-right: 5px;
+        }
+     .C{
+        float:left;
+        max-width: 400px;
+        }
   </style> 
 </head>
 <body>
@@ -62,7 +71,7 @@
     </div>
 </header>
 <article>        
-<div id="section1" class="s1">
+<section class="s1">
 <div class="container">
   <div class="row">
        <div class="col-sm-2"></div>
@@ -84,28 +93,31 @@
        <br><br>
   </div>
 </div>
-</div>
+</section>
 
-<div id="section2" class="s2">
-<div class="container">
-  <div class="row">
-       <div class="col-sm-6"> <img src="m06/fb_banner02.PNG" alt="" class="pic"></div> 
-       <div class="col-sm-6"> <img src="m06/fb_banner03.PNG" alt="" class="pic"></div>
-       <div class="col-sm-4"> <img src="m06/fb_banner08.PNG" alt="" class="pic"></div>
-       <div class="col-sm-4"> <img src="m06/fb_banner09.PNG" alt="" class="pic"></div>
-       <div class="col-sm-4"> <img src="m06/fb_banner10.PNG" alt="" class="pic"></div>
-       <div class="col-sm-4"> <img src="m06/fb_banner12.PNG" alt="" class="pic"></div>
-       <div class="col-sm-4"> <img src="m06/fb_banner11.PNG" alt="" class="pic"></div> 
-       <div class="col-sm-4"> <img src="m06/fb_banner13.PNG" alt="" class="pic"></div>
-  </div>
-  <div class="row">      
-       <div class="col-sm-4"> <img src="m06/fb_banner05.PNG" alt="" class="pic"></div>
-       <div class="col-sm-4"> <img src="m06/fb_banner06.PNG" alt="" class="pic"></div>
-       <div class="col-sm-4"> <img src="m06/fb_banner07.PNG" alt="" class="pic"></div>
-       
-   </div>    
-</div>
-</div>
+<section class="s2">
+    <div class="row">
+    <span class="A">
+            <img src="m06/fb_banner02.PNG" alt="" class="pic">
+            <img src="m06/fb_banner08.PNG" alt="" class="pic">
+            <img src="m06/fb_banner13.PNG" alt="" class="pic">
+            <img src="m06/fb_banner05.PNG" alt="" class="pic">
+    </span>
+    <span class="B">
+            <img src="m06/fb_banner03.PNG" alt="" class="pic">
+            <img src="m06/fb_banner09.PNG" alt="" class="pic">
+            <img src="m06/fb_banner11.PNG" alt="" class="pic">
+            <img src="m06/fb_banner06.PNG" alt="" class="pic">
+    </span>
+    <span class="C">
+            <img src="m06/fb_banner04.PNG" alt="" class="pic">
+            <img src="m06/fb_banner10.PNG" alt="" class="pic">
+            <img src="m06/fb_banner12.PNG" alt="" class="pic">
+            <img src="m06/fb_banner07.PNG" alt="" class="pic">
+    </span>
+    </div>
+</section>
+
 <div class="topbtn"><a href="#" id="goTop"><img src="topBtn.svg"></a></div>
 </article>
 </body>

@@ -45,98 +45,98 @@ body{
       .M1{
          
           height: 300px;
-          background-image:url("m01/cube_m01.png");
+          background-image:url("../images/m01/cube_m01.png");
           background-position: center;
           background-repeat: no-repeat;
           margin: 5px;
       }
       .M2{
           height: 300px;
-          background-image:url("m02/cube_m02.png");
+          background-image:url("../images/m02/cube_m02.png");
           background-position: center;
           background-repeat: no-repeat;
           margin: 5px;
       }
       .M3{
           height: 300px;
-          background-image:url("m03/cube_m03.png");
+          background-image:url("../images/m03/cube_m03.png");
           background-position: center;
           background-repeat: no-repeat;
           margin: 5px;
       }
       .M4{
           height: 300px;
-          background-image:url("m04/cube_m04.png");
+          background-image:url("../images/m04/cube_m04.png");
           background-position: center;
           background-repeat: no-repeat;
           margin: 5px;
       }
      .M5{
           height: 300px;
-          background-image:url("m05/cube_m05.png");
+          background-image:url("../images/m05/cube_m05.png");
           background-position: center;
           background-repeat: no-repeat;
           margin: 5px;
       }
      .M6{
           height: 300px;
-          background-image:url("m06/cube_m06.png");
+          background-image:url("../images/m06/cube_m06.png");
           background-position: center;
           background-repeat: no-repeat;
           margin: 5px;
       }
      .M7{
           height: 300px;
-          background-image:url("m07/cube_m07.png");
+          background-image:url("../images/m07/cube_m07.png");
           background-position: center;
           background-repeat: no-repeat;
           margin: 5px;
       }
       .M1:hover{
           height: 300px;
-          background-image:url("m01/cube_m01_h.png");
+          background-image:url("../images/m01/cube_m01_h.png");
           background-position: center;
           background-repeat: no-repeat;
           margin: 5px;
           }
       .M2:hover{
           height: 300px;
-          background-image:url("m02/cube_m02_h.png");
+          background-image:url("../images/m02/cube_m02_h.png");
           background-position: center;
           background-repeat: no-repeat;
           margin: 5px;
           }
       .M3:hover{
           height: 300px;
-          background-image:url("m03/cube_m03_h.png");
+          background-image:url("../images/m03/cube_m03_h.png");
           background-position: center;
           background-repeat: no-repeat;
           margin: 5px;
           }
       .M4:hover{
           height: 300px;
-          background-image:url("m04/cube_m04_h.png");
+          background-image:url("../images/m04/cube_m04_h.png");
           background-position: center;
           background-repeat: no-repeat;
           margin: 5px;
           }
      .M5:hover{
           height: 300px;
-          background-image:url("m05/cube_m05_h.png");
+          background-image:url("../images/m05/cube_m05_h.png");
           background-position: center;
           background-repeat: no-repeat;
           margin: 5px;
           }
      .M6:hover{
           height: 300px;
-          background-image:url("m06/cube_m06_h.png");
+          background-image:url("../images/m06/cube_m06_h.png");
           background-position: center;
           background-repeat: no-repeat;
           margin: 5px;
       }
       .M7:hover{
           height: 300px;
-          background-image:url("m07/cube_m07_h.png");
+          background-image:url("../images/m07/cube_m07_h.png");
           background-position: center;
           background-repeat: no-repeat;
           margin: 5px;
@@ -158,42 +158,42 @@ body{
       .G1{
           
           height: 300px;
-          background-image:url("g01/cube_g01.png");
+          background-image:url("../images/g01/cube_g01.png");
           background-position: center;
           background-repeat: no-repeat;
           margin: 5px;
       }
       .G2{
           height: 300px;
-          background-image:url("g02/cube_g02.png");
+          background-image:url("../images/g02/cube_g02.png");
           background-position: center;
           background-repeat: no-repeat;
           margin: 5px;
       }
       .G3{
           height: 300px;
-          background-image:url("g03/cube_g03.png");
+          background-image:url("../images/g03/cube_g03.png");
           background-position: center;
           background-repeat: no-repeat;
           margin: 5px;
       }
       .G1:hover{
           height: 300px;
-          background-image:url("g01/cube_g01_h.png");
+          background-image:url("../images/g01/cube_g01_h.png");
           background-position: center;
           background-repeat: no-repeat;
           margin: 5px;
       }
       .G2:hover{
           height: 300px;
-          background-image:url("g02/cube_g02_h.png");
+          background-image:url("../images/g02/cube_g02_h.png");
           background-position: center;
           background-repeat: no-repeat;
           margin: 5px;
       }
       .G3:hover{
           height: 300px;
-          background-image:url("g03/cube_g03_h.png");
+          background-image:url("../images/g03/cube_g03_h.png");
           background-position: center;
           background-repeat: no-repeat;
           margin: 5px;
@@ -215,42 +215,42 @@ body{
       .P1{
           
           height: 300px;
-          background-image:url("p01/cube_p01.png");
+          background-image:url("../images/p01/cube_p01.png");
           background-position: center;
           background-repeat: no-repeat;
           margin: 5px;
       }
       .P2{
           height: 300px;
-          background-image:url("p02/cube_p02.png");
+          background-image:url("../images/p02/cube_p02.png");
           background-position: center;
           background-repeat: no-repeat;
           margin: 5px;
       }
       .P3{
           height: 300px;
-          background-image:url("p03/cube_p03.png");
+          background-image:url("../images/p03/cube_p03.png");
           background-position: center;
           background-repeat: no-repeat;
           margin: 5px;
       }
       .P1:hover{
           height: 300px;
-          background-image:url("p01/cube_p01_h.png");
+          background-image:url("../images/p01/cube_p01_h.png");
           background-position: center;
           background-repeat: no-repeat;
           margin: 5px;
       }
       .P2:hover{
           height: 300px;
-          background-image:url("p02/cube_p02_h.png");
+          background-image:url("../images/p02/cube_p02_h.png");
           background-position: center;
           background-repeat: no-repeat;
           margin: 5px;
          }
       .P3:hover{
           height: 300px;
-          background-image:url("p03/cube_p03_h.png");
+          background-image:url("../images/p03/cube_p03_h.png");
           background-position: center;
           background-repeat: no-repeat;
           margin: 5px;
@@ -271,42 +271,42 @@ body{
           }
       .V1{ 
           height: 300px;
-          background-image:url("v01/cube_v01.png");
+          background-image:url("../images/v01/cube_v01.png");
           background-position: center;
           background-repeat: no-repeat;
           margin: 5px;
           }
       .V2{
           height: 300px;
-          background-image:url("v02/cube_v02.png");
+          background-image:url("../images/v02/cube_v02.png");
           background-position: center;
           background-repeat: no-repeat;
           margin: 5px;
           }
       .V3{
           height: 300px;
-          background-image:url("v03/cube_v03.png");
+          background-image:url("../images/v03/cube_v03.png");
           background-position: center;
           background-repeat: no-repeat;
           margin: 5px;
           }
       .V1:hover{
           height: 300px;
-          background-image:url("v01/cube_v01_h.png");
+          background-image:url("../images/v01/cube_v01_h.png");
           background-position: center;
           background-repeat: no-repeat;
           margin: 5px;
           }
       .V2:hover{
           height: 300px;
-          background-image:url("v02/cube_v02_h.png");
+          background-image:url("../images/v02/cube_v02_h.png");
           background-position: center;
           background-repeat: no-repeat;
           margin: 5px;
           }
       .V3:hover{
           height: 300px;
-          background-image:url("v03/cube_v03_h.png");
+          background-image:url("../images/v03/cube_v03_h.png");
           background-position: center;
           background-repeat: no-repeat;
           margin: 5px;

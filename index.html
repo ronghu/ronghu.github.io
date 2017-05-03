@@ -17,26 +17,30 @@
       body{
           background-image: url("images/shape-bg.png");
           background-repeat: repeat;
-      }
+       }
        .navbar-brand{
           padding: 1px;
-      }
+       }
        .jumbotron{
           background-image: url("images/sky.png");
           background-repeat: no-repeat;
           background-size: cover;
           height: 300px;
-      }
-      .navbar{
+       }
+       .navbar{
           margin: 0 auto;
-      }
-      
-      .article{
-          padding: 100px;    
-      }
-      .tagline{
-          font: 25pt Century Gothic, "華康圓體 Std", Sans-Seri; 
-      }   
+       }
+       .tagline{
+          font: 25pt Century Gothic, "華康圓體 Std", Sans-Seri;
+          height: 200px;
+          display:flex;
+          align-items:center;
+          justify-content:center;
+          text-align: center;
+       }  
+       .container{
+          margin: 0 auto;
+       }
        .s1{
            padding-top: 50px;
        }
@@ -83,8 +87,7 @@
                 <a class="navbar-brand" href="index.html"><img alt="Brand" src="images/Rongs logo.svg"></a>
             </div>
             <div class="collapse navbar-collapse" id="menu-id">
-                <ul class="nav navbar-nav">
-                    
+                <ul class="nav navbar-nav"> 
                     <li><a href="#section1">Multimedia design</a></li>
                     <li><a href="#section2">Graphic design</a></li>
                     <li><a href="#section3">Product design</a></li>
@@ -102,9 +105,8 @@
 </div>
 </header>
 
-<article>
-<div class="text-center article">
-  <p class="tagline">I create various design and try to make something better.</p>
+<div class="tagline">
+  <p>I create various design and try to make something better.</p>
 </div>
 
 <div id="section1" class="s1">
@@ -112,25 +114,84 @@
   <div class="row">
        <div class="col-sm-1"></div>
        <div class="Mt col-sm-3">Multimedia design</div>
-       <a href="m01.html" target="_self"><div class="M1 col-sm-7"></div></a>
+       <div class="M1 col-sm-7">
+        <a href="m01.html" target="_self" class="img_L">
+           <img src="images/m01/cube_m01.png" alt="">
+           <div class="BTinfo">
+           <p>Velocite HQ shop</p>
+           </div>
+        </a>
+       </div>
        <div class="col-sm-1"></div>
   </div>
   <div class="row">
-    <div class="col-sm-1"></div>
-    <a href="m02.html" target="_self"><div class="M2 col-sm-7"></div></a>
-    <a href="m03.html" target="_self"><div class="M3 col-sm-3"></div></a>
+      <div class="col-sm-1"></div>
+      <div class="M2 col-sm-7">
+       <a href="m02.html" target="_self" class="img_L">
+          <img src="images/m02/cube_m02.png" alt="">
+          <div class="BTinfo">
+          <p>E-learning 2D Animation<br>
+          臺北市政府公務人員訓練處 動畫課程
+          </p>
+          </div>
+       </a>
+      </div>
+      <div class="M3 col-sm-3">
+       <a href="m03.html" target="_self" class="img_L">
+          <img src="images/m03/cube_m03.png" alt="">
+          <div class="BTinfo">
+          <p>AD Banner<br>
+          Cycle Taiwan
+          </p>
+          </div>
+       </a>
+      </div>
     <div class="col-sm-1"></div>
   </div>
   <div class="row">
     <div class="col-sm-1"></div>
-    <a href="m04.html" target="_self"><div class="M4 col-sm-3"></div></a>
-    <a href="m05.html" target="_self"><div class="M5 col-sm-7"></div></a>
+    <div class="M4 col-sm-3">
+       <a href="m04.html" target="_self" class="img_L">
+          <img src="images/m04/cube_m04.png" alt="">
+          <div class="BTinfo">
+          <p>UI<br>
+          動畫課程界面
+          </p>
+          </div>
+       </a>
+      </div>
+      <div class="M5 col-sm-7">
+       <a href="m05.html" target="_self" class="img_L">
+          <img src="images/m05/cube_m05.png" alt="">
+          <div class="BTinfo">
+          <p>E-learning 2D Animation<br>
+          e等公務園學習網 動畫課程
+          </p>
+          </div>
+       </a>
+      </div>
     <div class="col-sm-1"></div>
   </div>
   <div class="row">
     <div class="col-sm-1"></div>
-    <a href="m06.html" target="_self"><div class="M6 col-sm-7"></div></a>
-    <a href="m07.html" target="_self"><div class="M7 col-sm-3"></div></a>
+    <div class="M6 col-sm-7">
+       <a href="m06.html" target="_self" class="img_L">
+          <img src="images/m06/cube_m06.png" alt="">
+          <div class="BTinfo">
+          <p>Social Media AD</p>
+          </div>
+       </a>
+      </div>
+      <div class="M7 col-sm-3">
+       <a href="m07.html" target="_self" class="img_L">
+          <img src="images/m07/cube_m07.png" alt="">
+          <div class="BTinfo">
+          <p>eBook<br>
+          台北捷運局電子書
+          </p>
+          </div>
+       </a>
+      </div>
     <div class="col-sm-1"></div>
   </div>
 </div>
@@ -141,14 +202,35 @@
   <div class="row">
        <div class="col-sm-1"></div>
        <div class="Gt col-sm-3">Graphic design</div>
-       <a href="g01.html" target="_self"><div class="G1 col-sm-7"></div></a>
+       <div class="G1 col-sm-7">
+       <a href="g01.html" target="_self" class="img_L">
+          <img src="images/g01/cube_g01.png" alt="">
+          <div class="BTinfo">
+          <p>Brand identity</p>
+          </div>
+       </a>
+      </div>
        <div class="col-sm-1"></div>
     </div>
   
   <div class="row">
     <div class="col-sm-1"></div>
-    <a href="g02.html" target="_self"><div class="G2 col-sm-7"></div></a>
-    <a href="g03.html" target="_self"><div class="G3 col-sm-3"></div></a>
+    <div class="G2 col-sm-7">
+       <a href="g02.html" target="_self" class="img_L">
+          <img src="images/g02/cube_g02.png" alt="">
+          <div class="BTinfo">
+          <p>Poster & Flyer</p>
+          </div>
+       </a>
+      </div>
+      <div class="G3 col-sm-3">
+       <a href="g03.html" target="_self" class="img_L">
+          <img src="images/g03/cube_g03.png" alt="">
+          <div class="BTinfo">
+          <p>Catalog</p>
+          </div>
+       </a>
+      </div>
     <div class="col-sm-1"></div>
   </div>
 </div>
@@ -159,14 +241,35 @@
     <div class="row">
        <div class="col-sm-1"></div>
        <div class="Pt col-sm-3">Product design</div>
-       <a href="p01.html" target="_self"><div class="P1 col-sm-7"></div></a>
+       <div class="P1 col-sm-7">
+       <a href="p01.html" target="_self" class="img_L">
+          <img src="images/p01/cube_p01.png" alt="">
+          <div class="BT2info">
+          <p>Bike Decals</p>
+          </div>
+       </a>
+       </div>
        <div class="col-sm-1"></div>
     </div>
   
   <div class="row">
     <div class="col-sm-1"></div>
-    <a href="p02.html" target="_self"><div class="P2 col-sm-7"></div></a>
-    <a href="p03.html" target="_self"><div class="P3 col-sm-3"></div></a>
+    <div class="P2 col-sm-7">
+       <a href="p02.html" target="_self" class="img_L">
+          <img src="images/p02/cube_p02.png" alt="">
+          <div class="BT2info">
+          <p>Finials</p>
+          </div>
+       </a>
+       </div>
+       <div class="P3 col-sm-3">
+       <a href="p03.html" target="_self" class="img_L">
+          <img src="images/p03/cube_p03.png" alt="">
+          <div class="BT2info">
+          <p>守護 • HOOK</p>
+          </div>
+       </a>
+      </div>
     <div class="col-sm-1"></div>
   </div>
 </div>
@@ -177,14 +280,35 @@
     <div class="row">
        <div class="col-sm-1"></div>
        <div class="Vt col-sm-3">Visual display</div>
-       <a href="v01.html" target="_self"><div class="V1 col-sm-7"></div></a>
+       <div class="V1 col-sm-7">
+       <a href="v01.html" target="_self" class="img_L">
+          <img src="images/v01/cube_v01.png" alt="">
+          <div class="BT2info">
+          <p>Velocite Bikes in Taipei Cycle Show</p>
+          </div>
+       </a>
+       </div>
        <div class="col-sm-1"></div>
     </div>
   
   <div class="row">
     <div class="col-sm-1"></div>
-    <a href="v02.html" target="_self"><div class="V2 col-sm-7"></div></a>
-    <a href="v03.html" target="_self"><div class="V3 col-sm-3"></div></a>
+    <div class="V2 col-sm-7">
+       <a href="v02.html" target="_self" class="img_L">
+          <img src="images/v02/cube_v02.png" alt="">
+          <div class="BT2info">
+          <p>Finials Packages</p>
+          </div>
+       </a>
+      </div>
+      <div class="V3 col-sm-3">
+       <a href="v03.html" target="_self" class="img_L">
+          <img src="images/v03/cube_v03.png" alt="">
+          <div class="BT2info">
+          <p>Shop window display</p>
+          </div>
+       </a>
+      </div>
     <div class="col-sm-1"></div>
   </div>
 </div>
@@ -235,7 +359,6 @@
     </div>
 </div>
 </div>
-</article>
 
 <footer>
 <div id="section6" class="s6">

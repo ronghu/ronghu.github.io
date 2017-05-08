@@ -1,17 +1,23 @@
+
 body{ 
+      position: absolute;
+      background-size: cover;
       background-image: url("../images/shapeBG1.gif");
       background-repeat: repeat;
 	  font: 18px Helvetica, "華康圓體 Std", Sans-Serif;
-	  overflow: auto;
+	  width: 100%;
 	  line-height: 28px;
 	  letter-spacing: 0.5px;
       height: auto;
+      margin:0 auto;
+      padding: 8px;
       }
 *{  
     box-sizing: border-box;
     overflow: auto;
 }
 .container{
+      position: relative;
       padding: 10px;
       max-width: 650px;
       margin:0 auto;

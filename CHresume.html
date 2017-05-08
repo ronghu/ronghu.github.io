@@ -4,77 +4,218 @@
     <meta charset="UTF-8">
     <title>Rong's resume</title>
     <link href="favicon_rong.ico" rel="icon" type="image/x-icon" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="normalize.css">
-    <link rel="stylesheet" type="text/css" href="CHresumeStyle.css">
+    <link rel="stylesheet" type="text/css" href="https://necolas.github.io/normalize.css/">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/CHresumeStyle.css">
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script>     
+    $(document).ready(function(){ 
+    $('.title').hover(function(){
+        $(this).css('transition','1s');
+        });
+     
+    $('#s2,#s3,#s4,#s5').hide();
+    //按下標題按鈕連結
+    $('.title').click(function() {
+    $('#s2,#s3,#s4,#s5').slideUp("slow"); //文字內容
     
+    //下一個主選單以下的內容要slide down
+    $(this).parent().next().slideDown("slow");
+    return false;
+        });
+        
+    });
+    </script>
 </head>
 
 <body>
+
 <div class="container">
-   
-   <a href="ENresume.html" target="_self" class="btnA">EN version</a>
-   <figure><img src="Rong design logo.svg"></figure>
-   
-   <div class="info">
+ 
+    <a href="ENresume.html" target="_self" class="btnA">EN version</a>
+
+<div class="clearfix"></div>
+
+<div class="header">
+   <figure><img src="images/Rong design logo.svg" class="logo"></figure>
+</div>  
+<div class="clearfix"></div>
+<article>
+<div class="section1">
+<div class="content">
+<div class="info">
    胡容榕<br>
    0988702660<br>
    Rongrong Hu<br>
    Aug.14, 1984<br>
-   long20031001@hotmail.com
-   </div>
+   long20031001@hotmail.com<br>
+</div>
+</div>
+</div>
 
+<div class="clearfix"></div>
+
+<div class="section2"> 
+<a href="#s2" target="_self" class="btn" ><h2 class="title">作品集</h2></a>
+<div class="content" id="s2">
+<a href="http:ronghu.github.io/index.html" target="_blank" class="btnB">ronghu.github.io/index.html</a>
+</div>
+</div>
+
+<div class="clearfix"></div>
+
+<div class="section3"> 
+<a href="#s3" target="_self" class="btn" ><h2 class="title">工作經歷</h2></a>
+<div class="content" id="s3">
+<h3>紹凱國際 平面設計師</h3><h4>2014.11-2016.12 </h4>
+<div class="clearfix"></div>
+<span class="list_L">
+    <a href="https://ronghu.github.io/g01.html" target="_blank" class="btnB">品牌識別</a>
+</span>
+<span class="list_R">
+   設計自行車品牌<span class="highlight">Velocite logo</span>，取得台灣、澳洲、歐盟、美國、加拿大等多國商標申請核淮。
+</span>
+<div class="clearfix"></div>
+<span class="list_L">
+    <a href="https://ronghu.github.io/g02.html" target="_blank" class="btnB">行銷文宣</a>
+</span>
+<span class="list_R">
+    定義品牌識別套用至產品、行銷文宣、實體店面，營造品牌印象與能見度。
+</span>
+<div class="clearfix"></div>
+<span class="list_L">
+    <a href="https://ronghu.github.io/v01.html" target="_blank" class="btnB">展場設計</a>
+</span>
+<span class="list_R">
+    2016台北國際自行車展場設計，透過視覺規劃提升品牌曝光率，提升外銷訂單量。
+</span>
+<div class="clearfix"></div>
+<span class="list_L">
+    <a href="https://ronghu.github.io/m01.html" target="_blank" class="btnB">網站規劃</a>
+</span>
+<span class="list_R">
+    建構中文版形象網站，行銷品牌產品與車店活動，培養台灣在地市場。
+</span>
+<div class="clearfix"></div>
+<span class="list_L">
+    <a href="https://ronghu.github.io/p01.html" target="_blank" class="btnB">貼標塗裝</a>
+</span>
+<span class="list_R">
+    設計產品風格特性貼標，分析歐美市場色彩偏好進行塗裝設計，詢價發包協力廠、控管品質。
+</span>
+<div class="clearfix"></div>
+<span class="list_L">
+    <a href="https://ronghu.github.io/p01.html" target="_blank" class="btnB">建模渲染</a>
+</span>
+<span class="list_R">
+    車架3D建模，協助模擬流體力學測試研發，調整模型角度降低風阻，達到最佳化性能。產品渲染擬真圖及影片替代成品打樣，縮短一個月交期，進而爭取訂單時效、降低時間成本。
+</span>
+
+<div class="clearfix"></div>
 <br>
-<div class="text">
-<h2><em>Works</em></h2>
-<h3>2014.11-2016.12 紹凱國際 平面設計師</h3>
-<strong>品牌識別、行銷文宣、展場規劃、網站規劃、市場分析與色彩研究、貼標設計、3D建模與渲染。 </strong>
+<h3>金坤實業 產品設計工程師</h3><h4>2013.8-2014.7</h4>
+<div class="clearfix"></div>
+<span class="list_L">
+    <div class="worktitle">產品分析 套飾設計</div>
+</span>
+<span class="list_R">
+   研究市場偏好，依國家地區賣場與顧客群，設計符合風格的窗簾套飾提案：<span class="highlight">Lowes</span> Canada,  <span class="highlight">Walmart</span> US,  <span class="highlight">Home Depot</span> US / Canada,  <span class="highlight">Menards</span> US,  <span class="highlight">USC</span> Canada.
+</span>
+<div class="clearfix"></div>
+<span class="list_L">
+    <a href="https://ronghu.github.io/p02.html" target="_blank" class="btnB">建模打樣 外銷量產</a>
+</span>
+<span class="list_R">
+   二款窗簾套飾設計打樣提案獲Home Depot訂單，每年大量生產外銷至加拿大連鎖賣場，至今累積量約一萬多件。
+</span>
+<div class="clearfix"></div>
+<span class="list_L">
+    <a href="https://ronghu.github.io/v02.html" target="_blank" class="btnB">包裝設計</a>
+</span>
+<span class="list_R">
+   定義窗簾套飾尺寸類別，統一包裝盒刀模，降低包裝成本及改善既有包裝盒缺點。
+</span>
+<div class="clearfix"></div>
+<span class="list_L">
+    <a href="https://ronghu.github.io/v02.html" target="_blank" class="btnB">賣場陳列</a>
+</span>
+<span class="list_R">
+    Lowes, Home Depot, Menards賣場設計，陳列產品多樣性及數量最大化，增加空間利用率30%。
+</span>
 
-<ul class="list_1">
-    <li>設計自行車品牌<span class="highlight">Velocite logo</span>，取得台灣、澳洲、歐盟、美國、加拿大等多國商標申請核淮。</li>
-	<li>定義品牌識別套用至產品、行銷文宣、實體店面，營造品牌印象與能見度。</li>
-	<li>2016 Taipei Cycle Show台北國際自行車展場設計，透過視覺規劃提升品牌曝光率，提升外銷訂單量。</li>
-	<li>建構中文版形象網站，行銷品牌產品與車店活動，培養台灣在地市場。 </li>
-	<li>車架3D擬真圖及影片替代成品打樣，縮短一個月交期，進而爭取訂單時效、降低時間成本。 </li>
-	<li>協助二款車架研發3D建模，供模擬流體力學測試，調整模型角度降低風阻，達到最佳化性能。</li>
-</ul>
+<div class="clearfix"></div>
+<br>
+<h3>勝典科技 多媒體設計師</h3><h4>2007.9-2013.8</h4>
+<div class="clearfix"></div>
+<span class="list_L">
+   <div class="worktitle">定義風格</div>
+</span>
 
-<h3>2013.8-2014.7 金坤實業 產品設計工程師</h3><strong>產品分析、窗簾套飾設計、3D建模、CAD 2D圖、賣場陳列設計、包裝設計與詢價。</strong>
-<ul class="list_1">
-	<li>研究市場偏好依不同國家地區賣場與顧客群，設計不同風格窗簾套飾提案：<br> 
-	 <span class="highlight">Lowes</span> Canada,  <span class="highlight">Walmart</span> US,  <span class="highlight">Home Depot</span> US / Canada,  <span class="highlight">Menards</span> US,  <span class="highlight">USC</span> Canada</li>
-	<li>二款窗簾套飾設計獲Home Depot訂單，每年大量生產外銷至加拿大連鎖賣場，至今累積量約一萬多件。</li>
-	<li>設計Lowes, Home Depot, Menards賣場規劃，陳列產品多樣性及數量最大化，增加空間利用率30%。</li>
-	<li>定義窗簾套飾尺寸類別，統一包裝盒刀模，降低包裝成本及改善既有包裝盒缺點。</li>
-</ul>
+<span class="list_R">
+   擔任主力多媒體設計師，設計專案風格與品質控管，協助分配工作、掌控進度、指導新人。 媒體設計包含課程UI、2D動畫、網頁設計、影片剪輯、電子書、EDM、Banner。
+</span>
+<span class="list_L">
+   <div class="worktitle">負責專案</div>
+</span>
+<span class="list_R">  
+    <span class="highlight">和泰汽車</span>「<a href="https://ronghu.github.io/m04.html" target="_blank" class="btnB">定保提醒與預約</a>」課程、
+    <span class="highlight">HTC</span>「Welcome video」demo、
+    <span class="highlight">臺北市政府公務人員訓練處</span>「<a href="https://ronghu.github.io/m02.html" target="_blank" class="btnB">Hot剋任務 - 愛地球關鍵行動</a>」認證課程、
+    <span class="highlight">臺北大眾捷運</span>「<a href="https://ronghu.github.io/m07.html" target="_blank" class="btnB">捷運新文化影帶及翻</a>」電子書、
+    <span class="highlight">教育部</span>「兒少保護」課程、
+    <span class="highlight">文化大學</span>「創新產品策略」認證課程、
+    <span class="highlight">安麗</span>「禮儀」AR課程。
+</span>
+<div class="clearfix"></div>
+<span class="list_L">
+    <div class="worktitle">協力專案</div>
+</span>
+<span class="list_R">
+   <span class="highlight">奇美</span>「各國環保法規」課程、
+   <span class="highlight">高雄市政府公務人力發展中心</span>「組織氣侯塑造」課程、
+   <span class="highlight">國民健康局</span>「生育健康促進」認證課程、
+   <span class="highlight">金管會</span>「聰明金融家」課程、
+   <span class="highlight">友達</span>「問題分析與解決程序」課程。
+</span>
+<div class="clearfix"></div>
+<span class="list_L">
+   <div class="worktitle">認證獲獎</div>
+</span>
+<span class="list_R">
+    負責執行多件數位學習教材專案取得<span class="highlight">中研院「數位典藏與數位學習國家型科技計畫」AAA級認證標章</span>， 品質獲得業界肯定，因此客戶主動指定由勝典承接委製課程。
+</span>
+</div>
+</div>
 
-<h3>2007.9-2013.8 勝典科技 多媒體設計師</h3><strong>專案風格設計、2D動畫、網頁設計、課程UI設計、影片剪輯、電子書、EDM、Banner。</strong>
-<ul class="list_1">
-	<li>擔任主力多媒體設計師，設計專案風格與品質控管，協助分配工作、掌控進度、指導新人。</li>
-	<li>數位課程建置專案 多媒體設計 </li>
-	<span>主要負責專案: <span class="highlight">和泰汽車</span>「定保提醒與預約」課程、<span class="highlight">HTC</span>「Welcome video」demo、<span class="highlight">臺北市政府公務人員 訓練處</span>「Hot 剋任務 - 愛地球關鍵行動」認證課程、<span class="highlight">臺北大眾捷運</span>「捷運新文化影帶及翻頁」電子書、 <span class="highlight">教育部</span>「兒少保護」課程、<span class="highlight">文化大學</span>「創新產品策略」認證課程、<span class="highlight">安麗</span>「禮儀」AR課程。</span> 
-	<br>協力參與專案: <span class="highlight">奇美</span>「各國環保法規」課程、<span class="highlight">高雄市政府公務人力發展中心</span>「組織氣侯塑造」課程、<span class="highlight">國民健康局</span>「生育健康促進」認證課程、<span class="highlight">金管會</span>「聰明金融家」課程、<span class="highlight">友達</span>「問題分析與解決程序」課程。
-	<li>負責執行多件數位學習教材專案取得<span class="highlight">中研院「數位典藏與數位學習國家型科技計畫」AAA級認證標章</span>， 品質獲得業界肯定，因此客戶主動指定由勝典承接委製課程。</li>
-</ul>
+<div class="clearfix"></div>
 
-<div>
-<h2><em>Education</em></h2>
-<strong>2003-2007  南台科技大學 資訊傳播系</strong><br>
-<strong>1999-2003  高雄高商 綜合高中廣告設計科</strong>
-</div><br>
+<div class="section4">
+    <a href="#s4" target="_self" class="btn" ><h2 class="title">學歷</h2></a>
+<div class="content" id="s4">
+<h3>南台科技大學 資訊傳播系</h3><h4>2003.9-2007.6</h4>
+<br>
+<h3>高雄高商 綜合高中廣告設計</h3><h4>1999.9-2003.6</h4>
+</div>
+</div>
 
-<h2><em>Skills</em></h2>
-<strong>Illustrator, Photoshop, Indesign, Html5&Css3(Brackets), JS, RWD, Bootstrap, Dreamweaver, Flash, Premiere, After Effects, Alias, Catia, AutoCad, Showcase, Keyshot
+<div class="clearfix"></div> 
+
+<div class="section5" style="overflow-x: hidden;">
+    <a href="#s5" target="_self" class="btn" ><h2 class="title">工作技能</h2></a>
+<div class="content" id="s5">
+<strong>Illustrator, Photoshop, Indesign, Html5, CSS3, JS, jQuery, RWD, Bootstrap, Dreamweaver, Flash, Premiere, After Effects, Alias, Catia, AutoCad, Showcase, Keyshot
 </strong>
+<div class="row">
+<img src="images/design_skill.svg" class="skills">
 </div>
-   <div class="row">
-    <div class="col-sm-12 col-md-12"><img src="design skill.png" class="skills"/></div>
-   </div>   
+</div>  
 </div>
 
- <div class="ft">
-	<a href="index.html" target="_blank" class="btnB">Click here to view Rong's Portofolio.</a>
- </div>  
+
+</article>
+</div>
+
 </body>
 </html>
 

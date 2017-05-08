@@ -1,7 +1,20 @@
+ body{
+        background-image: url("../images/shapeBG.gif");
+        background-repeat: repeat;
+       }
+
 .header{
         margin: 0 auto;
         background: #F2F2F2;
 }
+.tagline{
+          font: 25pt Century Gothic, "華康圓體 Std", Sans-Seri;
+          height: 200px;
+          display:flex;
+          align-items:center;
+          justify-content:center;
+          text-align: center;
+       }
 .outer{
          
         margin: 0 auto;
@@ -38,6 +51,7 @@ body{
             display: block;
             position:relative;
             float: left;
+            width: 100%;
             height: auto;
             margin: 2px;   
         }
@@ -87,7 +101,7 @@ body{
           display:flex;
           align-items:center;
           justify-content:center;
-          max-width: 100vw;
+          max-width: 100%;
           height: 300px;
           border: 5px solid red;
           background-color: white;
@@ -99,6 +113,7 @@ body{
       }
 
       .M1{
+          max-width: 100%;
           height: 300px;
           overflow: hidden;
           margin: 5px;
@@ -137,7 +152,7 @@ body{
           display:flex;
           align-items:center;
           justify-content:center;
-          width: 100vw;
+          max-width: 100%;
           height: 300px;
           border: 5px solid red;
           background-color: white;
@@ -145,8 +160,9 @@ body{
           color: red;
           font-size: 30px;
           text-align: center;
-          margin: 5px;   
+          margin: 5px;    
       }
+
       .G1{
           height: 300px;
           overflow: hidden;
@@ -166,7 +182,7 @@ body{
           display:flex;
           align-items:center;
           justify-content:center;
-          width: 100vw;
+          width: 100rw;
           height: 300px;
           border: 5px solid #05A2B1;
           background-color: white;
@@ -174,7 +190,7 @@ body{
           color: #05A2B1;
           font-size: 30px;
           text-align: center;
-          margin: 5px;   
+          margin: 5px;    
       }
       .P1{
           height: 300px;
